@@ -3,7 +3,6 @@ import AWS from 'aws-sdk';
 // Configuración de AWS
 AWS.config.update({ 
     region: process.env.AWS_REGION || 'us-east-1',
-    credentials: new AWS.EnvironmentCredentials('AWS')
 });
 
 var sqs = new AWS.SQS({ apiVersion: '2012-11-05' });
