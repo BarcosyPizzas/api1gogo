@@ -1,17 +1,35 @@
 {
+
   "name": "api1gogo",
+
   "version": "1.0.0",
+
   "main": "index.js",
+
+  "type": "module",
+
   "scripts": {
+
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
+
   "keywords": [],
+
   "author": "",
+
   "license": "ISC",
+
   "description": "",
+
   "dependencies": {
+
     "aws-sdk": "^2.1692.0",
+
     "cors": "^2.8.5",
+
     "express": "^5.1.0"
+
   }
+
 }
